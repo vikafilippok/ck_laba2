@@ -12,6 +12,10 @@ request = requests.get(f'https://ruz.spbstu.ru/search/groups?q={group}')
 soup = BeautifulSoup(request.text, "html.parser")
 findGroups = soup.findAll('a', class_='groups-list__link')
 
+if len(findGroups) > 1:
+    print("\nНайдено больше 1 группы, введённая группа некорректна.")
+    exit(0)
+
 data_url = date.split(".")
 date = data_url[2] + "-" + data_url[1] + "-" + data_url[0]
 
@@ -38,7 +42,7 @@ for day in schedule['days']:
             for teacher in lessons['teachers']:
                 print("\t\t\t", teacher['full_name'])
         else: print("\t\t\t Преподаватель не указан")
-        print("\t\t\t", lessons['auditories'][0]['building']['name'],", ауд.", lessons['auditories'][0]['name'],"\n")
+        print("\t\t\t", lessons['auditories'][0]['building']['name']," ауд.", lessons['auditories'][0]['name'],"\n")
 days = list(classes_per_day.keys())
 classes_counts = list(classes_per_day.values())
 

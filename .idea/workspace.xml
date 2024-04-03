@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de60eaf7-1b68-4acb-9f9f-a5a21cff70b5" name="Changes" comment="">
+    <list default="true" id="de60eaf7-1b68-4acb-9f9f-a5a21cff70b5" name="Changes" comment="Добавлен вывод графика">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -15,6 +15,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;vikafilippok&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="82dec4b4-bb97-4077-9cde-a2cdaed08d9f" />
+        <option name="url" value="git@github.com:vikafilippok/ck_laba2.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -73,6 +87,15 @@
       <option name="presentableId" value="Default" />
       <updated>1711891186720</updated>
     </task>
+    <task id="LOCAL-00001" summary="Добавлен вывод графика">
+      <option name="closed" value="true" />
+      <created>1711970566611</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711970566611</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -85,5 +108,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Добавлен вывод графика" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен вывод графика" />
   </component>
 </project>
